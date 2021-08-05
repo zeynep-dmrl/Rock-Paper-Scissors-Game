@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <h1>Rock, Paper & Scissors</h1>
+    <div class="container">
+        <div class="score-container">
+            <span class="user">You</span>
+            <span id="score"></span>
+            <span class="computer">Computer</span>
+        </div>
+        <div class="buttons">
+            <button class="btn" id="paper" onclick="game(this.value)" value="paper"><i class="fas fa-hand-paper"></i></button>
+            <button class="btn" id="rock" onclick="game(this.value)" value="rock"><i class="fas fa-hand-rock"></i></button>
+            <button class="btn" id="scissors" onclick="game(this.value)" value="scissors"><i class="fas fa-hand-scissors"></i></button>
+        </div>
+        <div id="challenge">
+            <div id="you">
+                <div id="yourObject"></div>
+                <div class="who">You</div>
+            </div>
+            <div id="result"><p id="resultP"></p></div>
+            <div id="computer">
+                <div id="comObject"></div>
+                <div class="who">Computer</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
