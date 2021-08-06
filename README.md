@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors-Game
 
-
+[Live Demo]( https://zeynep-dmrl.github.io/Rock-Paper-Scissors-Game/)
 
 ![draw](https://github.com/zeynep-dmrl/Rock-Paper-Scissors-Game/blob/main/img/img-draw.png)
 ![win](https://github.com/zeynep-dmrl/Rock-Paper-Scissors-Game/blob/main/img/img-win.png)
